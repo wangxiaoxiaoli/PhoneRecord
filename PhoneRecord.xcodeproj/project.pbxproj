@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0969973B1C844C69006F96F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969973A1C844C69006F96F1 /* main.m */; };
+		0969973E1C844C69006F96F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969973D1C844C69006F96F1 /* AppDelegate.m */; };
+		096997411C844C69006F96F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096997401C844C69006F96F1 /* ViewController.m */; };
+		096997441C844C69006F96F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096997421C844C69006F96F1 /* Main.storyboard */; };
+		096997471C844C69006F96F1 /* PhoneRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 096997451C844C69006F96F1 /* PhoneRecord.xcdatamodeld */; };
+		096997491C844C69006F96F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096997481C844C69006F96F1 /* Assets.xcassets */; };
+		0969974C1C844C69006F96F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0969974A1C844C69006F96F1 /* LaunchScreen.storyboard */; };
+		096997571C844C69006F96F1 /* PhoneRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096997561C844C69006F96F1 /* PhoneRecordTests.m */; };
+		096997621C844C69006F96F1 /* PhoneRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096997611C844C69006F96F1 /* PhoneRecordUITests.m */; };
+		096997741C844CB8006F96F1 /* PhoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 096997721C844CB8006F96F1 /* PhoneCell.m */; };
+		096997751C844CB8006F96F1 /* PhoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096997731C844CB8006F96F1 /* PhoneCell.xib */; };
+		096997781C844CCD006F96F1 /* PhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 096997771C844CCD006F96F1 /* PhoneModel.m */; };
+		0969977B1C844CE8006F96F1 /* PhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969977A1C844CE8006F96F1 /* PhoneViewController.m */; };
+		0969977E1C844D0C006F96F1 /* PhoneRecordHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969977D1C844D0C006F96F1 /* PhoneRecordHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096997531C844C69006F96F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0969972E1C844C68006F96F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096997351C844C69006F96F1;
+			remoteInfo = PhoneRecord;
+		};
+		0969975E1C844C69006F96F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0969972E1C844C68006F96F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096997351C844C69006F96F1;
+			remoteInfo = PhoneRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096997361C844C69006F96F1 /* PhoneRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0969973A1C844C69006F96F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0969973C1C844C69006F96F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0969973D1C844C69006F96F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0969973F1C844C69006F96F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		096997401C844C69006F96F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		096997431C844C69006F96F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		096997461C844C69006F96F1 /* PhoneRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoneRecord.xcdatamodel; sourceTree = "<group>"; };
+		096997481C844C69006F96F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0969974B1C844C69006F96F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0969974D1C844C69006F96F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096997521C844C69006F96F1 /* PhoneRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096997561C844C69006F96F1 /* PhoneRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneRecordTests.m; sourceTree = "<group>"; };
+		096997581C844C69006F96F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0969975D1C844C69006F96F1 /* PhoneRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096997611C844C69006F96F1 /* PhoneRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneRecordUITests.m; sourceTree = "<group>"; };
+		096997631C844C69006F96F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096997711C844CB8006F96F1 /* PhoneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCell.h; sourceTree = "<group>"; };
+		096997721C844CB8006F96F1 /* PhoneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCell.m; sourceTree = "<group>"; };
+		096997731C844CB8006F96F1 /* PhoneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneCell.xib; sourceTree = "<group>"; };
+		096997761C844CCD006F96F1 /* PhoneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneModel.h; sourceTree = "<group>"; };
+		096997771C844CCD006F96F1 /* PhoneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneModel.m; sourceTree = "<group>"; };
+		096997791C844CE8006F96F1 /* PhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneViewController.h; sourceTree = "<group>"; };
+		0969977A1C844CE8006F96F1 /* PhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneViewController.m; sourceTree = "<group>"; };
+		0969977C1C844D0C006F96F1 /* PhoneRecordHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneRecordHelper.h; sourceTree = "<group>"; };
+		0969977D1C844D0C006F96F1 /* PhoneRecordHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneRecordHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096997331C844C69006F96F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0969974F1C844C69006F96F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0969975A1C844C69006F96F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0969972D1C844C68006F96F1 = {
+			isa = PBXGroup;
+			children = (
+				096997381C844C69006F96F1 /* PhoneRecord */,
+				096997551C844C69006F96F1 /* PhoneRecordTests */,
+				096997601C844C69006F96F1 /* PhoneRecordUITests */,
+				096997371C844C69006F96F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		096997371C844C69006F96F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096997361C844C69006F96F1 /* PhoneRecord.app */,
+				096997521C844C69006F96F1 /* PhoneRecordTests.xctest */,
+				0969975D1C844C69006F96F1 /* PhoneRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096997381C844C69006F96F1 /* PhoneRecord */ = {
+			isa = PBXGroup;
+			children = (
+				0969976F1C844C97006F96F1 /* View */,
+				096997701C844C97006F96F1 /* Model */,
+				0969973C1C844C69006F96F1 /* AppDelegate.h */,
+				0969973D1C844C69006F96F1 /* AppDelegate.m */,
+				0969977C1C844D0C006F96F1 /* PhoneRecordHelper.h */,
+				0969977D1C844D0C006F96F1 /* PhoneRecordHelper.m */,
+				0969973F1C844C69006F96F1 /* ViewController.h */,
+				096997401C844C69006F96F1 /* ViewController.m */,
+				096997791C844CE8006F96F1 /* PhoneViewController.h */,
+				0969977A1C844CE8006F96F1 /* PhoneViewController.m */,
+				096997421C844C69006F96F1 /* Main.storyboard */,
+				096997481C844C69006F96F1 /* Assets.xcassets */,
+				0969974A1C844C69006F96F1 /* LaunchScreen.storyboard */,
+				0969974D1C844C69006F96F1 /* Info.plist */,
+				096997451C844C69006F96F1 /* PhoneRecord.xcdatamodeld */,
+				096997391C844C69006F96F1 /* Supporting Files */,
+			);
+			path = PhoneRecord;
+			sourceTree = "<group>";
+		};
+		096997391C844C69006F96F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0969973A1C844C69006F96F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		096997551C844C69006F96F1 /* PhoneRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				096997561C844C69006F96F1 /* PhoneRecordTests.m */,
+				096997581C844C69006F96F1 /* Info.plist */,
+			);
+			path = PhoneRecordTests;
+			sourceTree = "<group>";
+		};
+		096997601C844C69006F96F1 /* PhoneRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				096997611C844C69006F96F1 /* PhoneRecordUITests.m */,
+				096997631C844C69006F96F1 /* Info.plist */,
+			);
+			path = PhoneRecordUITests;
+			sourceTree = "<group>";
+		};
+		0969976F1C844C97006F96F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				096997711C844CB8006F96F1 /* PhoneCell.h */,
+				096997721C844CB8006F96F1 /* PhoneCell.m */,
+				096997731C844CB8006F96F1 /* PhoneCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		096997701C844C97006F96F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				096997761C844CCD006F96F1 /* PhoneModel.h */,
+				096997771C844CCD006F96F1 /* PhoneModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096997351C844C69006F96F1 /* PhoneRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096997661C844C69006F96F1 /* Build configuration list for PBXNativeTarget "PhoneRecord" */;
+			buildPhases = (
+				096997321C844C69006F96F1 /* Sources */,
+				096997331C844C69006F96F1 /* Frameworks */,
+				096997341C844C69006F96F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneRecord;
+			productName = PhoneRecord;
+			productReference = 096997361C844C69006F96F1 /* PhoneRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		096997511C844C69006F96F1 /* PhoneRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096997691C844C69006F96F1 /* Build configuration list for PBXNativeTarget "PhoneRecordTests" */;
+			buildPhases = (
+				0969974E1C844C69006F96F1 /* Sources */,
+				0969974F1C844C69006F96F1 /* Frameworks */,
+				096997501C844C69006F96F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096997541C844C69006F96F1 /* PBXTargetDependency */,
+			);
+			name = PhoneRecordTests;
+			productName = PhoneRecordTests;
+			productReference = 096997521C844C69006F96F1 /* PhoneRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0969975C1C844C69006F96F1 /* PhoneRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0969976C1C844C69006F96F1 /* Build configuration list for PBXNativeTarget "PhoneRecordUITests" */;
+			buildPhases = (
+				096997591C844C69006F96F1 /* Sources */,
+				0969975A1C844C69006F96F1 /* Frameworks */,
+				0969975B1C844C69006F96F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0969975F1C844C69006F96F1 /* PBXTargetDependency */,
+			);
+			name = PhoneRecordUITests;
+			productName = PhoneRecordUITests;
+			productReference = 0969975D1C844C69006F96F1 /* PhoneRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0969972E1C844C68006F96F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qk365;
+				TargetAttributes = {
+					096997351C844C69006F96F1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					096997511C844C69006F96F1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 096997351C844C69006F96F1;
+					};
+					0969975C1C844C69006F96F1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 096997351C844C69006F96F1;
+					};
+				};
+			};
+			buildConfigurationList = 096997311C844C69006F96F1 /* Build configuration list for PBXProject "PhoneRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0969972D1C844C68006F96F1;
+			productRefGroup = 096997371C844C69006F96F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096997351C844C69006F96F1 /* PhoneRecord */,
+				096997511C844C69006F96F1 /* PhoneRecordTests */,
+				0969975C1C844C69006F96F1 /* PhoneRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096997341C844C69006F96F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096997751C844CB8006F96F1 /* PhoneCell.xib in Resources */,
+				0969974C1C844C69006F96F1 /* LaunchScreen.storyboard in Resources */,
+				096997491C844C69006F96F1 /* Assets.xcassets in Resources */,
+				096997441C844C69006F96F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096997501C844C69006F96F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0969975B1C844C69006F96F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096997321C844C69006F96F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096997411C844C69006F96F1 /* ViewController.m in Sources */,
+				096997471C844C69006F96F1 /* PhoneRecord.xcdatamodeld in Sources */,
+				096997781C844CCD006F96F1 /* PhoneModel.m in Sources */,
+				096997741C844CB8006F96F1 /* PhoneCell.m in Sources */,
+				0969973E1C844C69006F96F1 /* AppDelegate.m in Sources */,
+				0969973B1C844C69006F96F1 /* main.m in Sources */,
+				0969977B1C844CE8006F96F1 /* PhoneViewController.m in Sources */,
+				0969977E1C844D0C006F96F1 /* PhoneRecordHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0969974E1C844C69006F96F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096997571C844C69006F96F1 /* PhoneRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		096997591C844C69006F96F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096997621C844C69006F96F1 /* PhoneRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096997541C844C69006F96F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096997351C844C69006F96F1 /* PhoneRecord */;
+			targetProxy = 096997531C844C69006F96F1 /* PBXContainerItemProxy */;
+		};
+		0969975F1C844C69006F96F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 096997351C844C69006F96F1 /* PhoneRecord */;
+			targetProxy = 0969975E1C844C69006F96F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		096997421C844C69006F96F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096997431C844C69006F96F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0969974A1C844C69006F96F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0969974B1C844C69006F96F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096997641C844C69006F96F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		096997651C844C69006F96F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096997671C844C69006F96F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.PhoneRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		096997681C844C69006F96F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.PhoneRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0969976A1C844C69006F96F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.PhoneRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneRecord.app/PhoneRecord";
+			};
+			name = Debug;
+		};
+		0969976B1C844C69006F96F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoneRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.PhoneRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneRecord.app/PhoneRecord";
+			};
+			name = Release;
+		};
+		0969976D1C844C69006F96F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.PhoneRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneRecord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0969976E1C844C69006F96F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoneRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qk.PhoneRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneRecord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096997311C844C69006F96F1 /* Build configuration list for PBXProject "PhoneRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096997641C844C69006F96F1 /* Debug */,
+				096997651C844C69006F96F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096997661C844C69006F96F1 /* Build configuration list for PBXNativeTarget "PhoneRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096997671C844C69006F96F1 /* Debug */,
+				096997681C844C69006F96F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096997691C844C69006F96F1 /* Build configuration list for PBXNativeTarget "PhoneRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0969976A1C844C69006F96F1 /* Debug */,
+				0969976B1C844C69006F96F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0969976C1C844C69006F96F1 /* Build configuration list for PBXNativeTarget "PhoneRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0969976D1C844C69006F96F1 /* Debug */,
+				0969976E1C844C69006F96F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		096997451C844C69006F96F1 /* PhoneRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				096997461C844C69006F96F1 /* PhoneRecord.xcdatamodel */,
+			);
+			currentVersion = 096997461C844C69006F96F1 /* PhoneRecord.xcdatamodel */;
+			path = PhoneRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0969972E1C844C68006F96F1 /* Project object */;
+}
